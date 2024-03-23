@@ -44,7 +44,7 @@
 
         ht_tmux_ctrl: hold_tap_tmux_ctrl {
             compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <1>;
+            #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
             bindings = <&kp>, <&tmux_prefix>;
